@@ -1,0 +1,10 @@
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - LOGS_CAPTURED - Started capturing logs in process (pid: 13002).
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - STEP_START - Started execution of step "orders".
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - LOADED_INPUT - Loaded input "stg_orders" using input manager "io_manager", from output "result" of step "stg_orders"
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - LOADED_INPUT - Loaded input "stg_payments" using input manager "io_manager", from output "result" of step "stg_payments"
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - STEP_INPUT - Got input "stg_orders" of type "SQL". (Type check passed).
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - STEP_INPUT - Got input "stg_payments" of type "SQL". (Type check passed).
+[32m2023-04-16 18:42:12 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - STEP_OUTPUT - Yielded output "result" of type "SQL". (Type check passed).
+[32m2023-04-16 18:42:13 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - ASSET_MATERIALIZATION - Materialized value orders.
+[32m2023-04-16 18:42:13 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-04-16 18:42:13 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13002 - orders - STEP_SUCCESS - Finished execution of step "orders" in 1.2s.

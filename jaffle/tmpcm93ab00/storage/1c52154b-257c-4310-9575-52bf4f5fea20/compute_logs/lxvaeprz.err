@@ -1,0 +1,6 @@
+[32m2023-04-16 18:42:09 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - LOGS_CAPTURED - Started capturing logs in process (pid: 12964).
+[32m2023-04-16 18:42:09 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - stg_payments - STEP_START - Started execution of step "stg_payments".
+[32m2023-04-16 18:42:09 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - stg_payments - STEP_OUTPUT - Yielded output "result" of type "SQL". (Type check passed).
+[32m2023-04-16 18:42:10 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - stg_payments - ASSET_MATERIALIZATION - Materialized value stg_payments.
+[32m2023-04-16 18:42:10 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - stg_payments - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-04-16 18:42:10 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 12964 - stg_payments - STEP_SUCCESS - Finished execution of step "stg_payments" in 1.74s.

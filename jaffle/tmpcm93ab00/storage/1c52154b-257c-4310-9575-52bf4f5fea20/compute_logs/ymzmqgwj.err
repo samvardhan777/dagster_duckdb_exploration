@@ -1,0 +1,16 @@
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - LOGS_CAPTURED - Started capturing logs in process (pid: 13024).
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - STEP_START - Started execution of step "print_continent_population".
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - LOADED_INPUT - Loaded input "continent_population" using input manager "io_manager", from output "result" of step "continent_population"
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - STEP_INPUT - Got input "continent_population" of type "SQL". (Type check passed).
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mINFO[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - print_continent_population - Final asset:
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mINFO[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - print_continent_population -   continent  avg_pop_change
+0    Africa        2.070345
+1      Asia        0.963725
+2       NaN        0.880000
+3   Oceania        0.859130
+4  Americas        0.563273
+5    Europe        0.141020
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - ASSET_MATERIALIZATION - Materialized value print_continent_population.
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-04-16 18:42:14 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 1c52154b-257c-4310-9575-52bf4f5fea20 - 13024 - print_continent_population - STEP_SUCCESS - Finished execution of step "print_continent_population" in 127ms.
